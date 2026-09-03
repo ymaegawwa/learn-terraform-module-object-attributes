@@ -5,7 +5,7 @@
 
 provider "aws" {
   region = "us-west-2"
-
+  profile = "takaichi-aws"
   default_tags {
     tags = {
       hashicorp-learn = "module-object-attributes"

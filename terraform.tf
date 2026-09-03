@@ -2,11 +2,11 @@
 # SPDX-License-Identifier: MPL-2.0
 
 terraform {
-  cloud {
-    workspaces {
-      name = "learn-terraform-module-object-attributes"
-    }
-  }
+  # cloud {
+  #   workspaces {
+  #     name = "learn-terraform-module-object-attributes"
+  #   }
+  # }
 
   required_providers {
     aws = {
